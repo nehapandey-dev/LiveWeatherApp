@@ -1,0 +1,55 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+   height: 100vh;
+   width: 100vw;
+   background-image: url("https://img.freepik.com/free-vector/realistic-clouds-with-falling-rain_1017-33597.jpg?w=1800&t=st=1680591223~exp=1680591823~hmac=69faaae76f0d7e8c8fecbeea6dce0dd17de65756db7835556ca96ea969453a46");
+}
+.umbrela{
+    animation: heartBeat;
+    animation-duration: 60s;
+    margin-bottom: 30px;
+}
+.main{
+    display: flex;
+}
+.Container{
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    margin-top: 100px;
+    /* background-color: rgb(238, 249, 250);
+    border: 1px solid rgb(159, 194, 246); */
+}
+.inputfeild{
+    text-align: center;
+    margin-left:60px;
+    margin-top: 10px;
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    border: 1px solid rgb(132, 157, 211);
+    background-color:rgb(246, 239, 241);
+}
+.weather-info{
+    font-family:sans-serif;
+    margin: 12px;
+    text-align: center;
+    color: rgb(205, 207, 209);
+    margin-top: 40px;
+}
+.temperature{
+    margin-top: 10px;
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.city{
+    font-family: cursive;
+    font-size: 37px;
+    color: rgb(27, 27, 63);
+}
